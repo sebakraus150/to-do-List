@@ -1,7 +1,10 @@
 .notaMadre{
     width: 312px;
     display: inline-block;
+<<<<<<< HEAD
     margin-bottom: 2.5%;
+=======
+>>>>>>> 73adcf8d70f2bbfe07cf084c9f1d4cf87924af48
 }
 
 .containerSuperior{
@@ -22,6 +25,10 @@
 .containerInferior{
     display: flex;
     width: 312px;
+<<<<<<< HEAD
+=======
+    margin-bottom: 3%;
+>>>>>>> 73adcf8d70f2bbfe07cf084c9f1d4cf87924af48
 }
 .contenidoNota{
     background-color: transparent;

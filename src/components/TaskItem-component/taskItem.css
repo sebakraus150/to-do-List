@@ -4,13 +4,18 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+<<<<<<< HEAD
     margin-bottom: 2.5%;
+=======
+    margin-bottom: 4.5%;
+>>>>>>> 73adcf8d70f2bbfe07cf084c9f1d4cf87924af48
 }
 .checkbox{
     width: 23px;
     height: 23px;
 }
 .notaSuperiorP{
+<<<<<<< HEAD
   width: 85%;
 }
 .description{
@@ -21,6 +26,10 @@
     width: 100%;
     font-size: large;
     padding: 5px;
+=======
+  width: 100%;
+  padding: 5px;
+>>>>>>> 73adcf8d70f2bbfe07cf084c9f1d4cf87924af48
 }
 
 ::-webkit-scrollbar {

@@ -4,7 +4,11 @@ import addIcon from "../../images/add.svg" //hay que usar react icon
 import deleteIcon from "../../images/delete.svg" //hay que usar react icon
 import { IoColorFillSharp } from "react-icons/io5";
 import "./taskItem.css"
+<<<<<<< HEAD
 const TaskItem = ({ task }) => {
+=======
+const TaskItem = ({ task,deleteTask }) => {
+>>>>>>> 73adcf8d70f2bbfe07cf084c9f1d4cf87924af48
     const colors = ["#FFF599", "#FF8282", "#9CBBE9"];
     const colorsTachado = ["#C5BD77", "#D16C6C", "#7C95BB"];
   
@@ -30,12 +34,20 @@ const TaskItem = ({ task }) => {
         <div className="nota">
           <div className="containerSuperior" style={ !tachado ? { backgroundColor: colors[colorIndex] } :{ backgroundColor: colorsTachado[colorIndex] } }>
             <div className='notaSuperiorP'>
+<<<<<<< HEAD
               <p className="description" style={{ textDecoration: tachado ? "line-through" : "none" }}>{task.description}</p>
+=======
+              <textarea name="textareaNota" className="contenidoNota" disabled style={{ textDecoration: tachado ? "line-through" : "none" }}>{task.description}</textarea>
+>>>>>>> 73adcf8d70f2bbfe07cf084c9f1d4cf87924af48
             </div>
             <div className='containerIconos'>
               <input type="checkbox" className='checkbox' onClick={handleChangeCheckbox} />
               <button className="buttonIcon" type='button'>
+<<<<<<< HEAD
                 <img className='iconoNota' src={deleteIcon} alt="delete"/>
+=======
+                <img className='iconoNota' src={deleteIcon} alt="delete" onClick={() => deleteTask(task.id)}/>
+>>>>>>> 73adcf8d70f2bbfe07cf084c9f1d4cf87924af48
               </button>
               <button className="buttonIcon" type='button'>
                 <IoColorFillSharp className='colorPicker' onClick={handleColorChange}/> 

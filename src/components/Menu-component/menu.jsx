@@ -30,6 +30,7 @@ const Menu = (propiedades) => {
         <div className='menu'>
           <div className={`menuOption ${selected === 0 ? 'selected' : ''}`} onClick={() => handleOptionClick(0)}> <div className="miniBackground" style={{backgroundImage: 'url("src/components/Menu-component/imgs/background0.png")'}}></div> Tablero de Corcho</div>
           <div className={`menuOption ${selected === 1 ? 'selected' : ''}`} onClick={() => handleOptionClick(1)}> <div className="miniBackground" style={{backgroundImage: 'url("src/components/Menu-component/imgs/background1.png")'}}></div> Hoja cuadriculada</div>
+          <div className={`menuOption ${selected === 2 ? 'selected' : ''}`} onClick={() => handleOptionClick(2)}> <div className="miniBackground" style={{backgroundImage: 'url("src/components/Menu-component/imgs/background2.png")'}}></div> Hoja cuadriculada</div>
         </div>
       )}
       </div>

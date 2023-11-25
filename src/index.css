@@ -9,6 +9,10 @@ html, body {
   height:100%;
   overflow-x: hidden;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 73adcf8d70f2bbfe07cf084c9f1d4cf87924af48
 #bgFix{
   background-repeat: repeat;
   background-size: cover;
@@ -23,13 +27,35 @@ html, body {
   justify-content: center;
   align-items: center;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 73adcf8d70f2bbfe07cf084c9f1d4cf87924af48
 .notitas{
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+<<<<<<< HEAD
   justify-content: center; 
   gap: 5%;
   margin-top: 2.5%;
   flex-wrap: wrap;
   width: 100%;
 }
+=======
+  justify-content: start; 
+  margin-top: 2.5%;
+  flex-wrap:wrap;
+  width: 100%;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.alinearNota{
+  width: 33.3%;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  padding: 0;
+}
+>>>>>>> 73adcf8d70f2bbfe07cf084c9f1d4cf87924af48
